@@ -11,8 +11,7 @@
 .valor p {
     width: 1040px;
     margin: right;
-    font-size: 40px;
-    background-color: blue;
+    font-size: 50px;
     color: black;
     text-align: center;
 }
@@ -30,4 +29,8 @@
 
 .nav .blog {
     text-align: left;
+}
+
+.cambio {
+    background-color: royalblue;
 }

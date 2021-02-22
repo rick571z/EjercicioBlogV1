@@ -21,7 +21,7 @@ export class ServicioService {
       titulo: 'Wonder Woman2',
       texto: 'primera pelicula',
       autor: 'Pati Jenkis',
-      imagen: 'https://ciencia-ficcion.es/wp-content/uploads/2013/12/Guerra_mundial_Z-150505659-large-691x1024.jpg',
+      imagen: 'https://i.pinimg.com/736x/0b/47/52/0b475243e0f2612c5ad6485dfc214b3e.jpg',
       fecha: '12-08-2017',
       categoria: 'drama'
     },

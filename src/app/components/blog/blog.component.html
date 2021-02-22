@@ -1,5 +1,5 @@
 <div class="valor">
-    <div>
+    <div class="change">
         <select (change)="onChange($event)">
             
             <option value="todos">TODAS LAS CATEGORIAS</option>
@@ -10,9 +10,7 @@
                
             </option>
         </select>
-        <div>
-            <p></p>
-        </div>
+
         <div class="listapost">
             <div class="listaheroes" *ngFor="let id of listaPost" [ngStyle]="{ backgroundImage: 'url('+ id.imagen + ')'}" [routerLink]="['/blog']">
                 <h3>{{ id.categoria }}</h3>
