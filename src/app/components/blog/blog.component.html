@@ -1,0 +1,31 @@
+<div class="valor">
+    <div>
+        <select (change)="onChange($event)">
+            
+            <option value="todos">TODAS LAS CATEGORIAS</option>
+            <option [value]="categoria" *ngFor="let categoria of listadoCat">
+                <div>
+                    {{ categoria }}
+                </div>
+               
+            </option>
+        </select>
+        <div>
+            <p></p>
+        </div>
+        <div class="listapost">
+            <div class="listaheroes" *ngFor="let id of listaPost" [ngStyle]="{ backgroundImage: 'url('+ id.imagen + ')'}" [routerLink]="['/blog']">
+                <h3>{{ id.categoria }}</h3>
+            </div>
+
+        </div>
+
+        <div>
+            <p>los mejores post</p>
+        </div>
+        <div>
+            <p>_____________________________________________________________________________________________________________________________________________________________</p>
+        </div>
+    </div>
+
+</div>

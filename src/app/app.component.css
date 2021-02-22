@@ -1,0 +1,33 @@
+.newcont {
+    background-color: darkcyan;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+    font-size: 18px;
+}
+
+.valor p {
+    width: 1040px;
+    margin: right;
+    font-size: 40px;
+    background-color: blue;
+    color: black;
+    text-align: center;
+}
+
+.nav {
+    width: 1040px;
+    background-color: coral;
+    margin-top: 20px;
+    margin-left: -330px;
+}
+
+.nav button {
+    margin-left: 330px;
+}
+
+.nav .blog {
+    text-align: left;
+}
