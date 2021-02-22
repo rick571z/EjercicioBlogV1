@@ -9,7 +9,7 @@
 } */
 
 form {
-    width: 300px;
+    width: 700px;
     padding: 16px;
     border-radius: 10px;
     margin: auto;
@@ -20,5 +20,15 @@ form {
 form label {
     width: 72px;
     font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"] {
+    /* width: 180px; */
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    /* margin: 8px 0; */
     display: inline-block;
 }
