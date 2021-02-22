@@ -79,9 +79,9 @@ export class ServicioService {
    */
   agregarPost(post: Post) {
     this.listaPersonas.push(post);
-    // console.log(this.listaPersonas);
-    // const arrayCadena = JSON.stringify(this.listaPersonas);
-    // localStorage.setItem('arr_post', arrayCadena);
+    console.log(this.listaPersonas);
+    const arrayCadena = JSON.stringify(this.listaPersonas);
+    localStorage.setItem('arr_post', arrayCadena);
   }
 
   /**
