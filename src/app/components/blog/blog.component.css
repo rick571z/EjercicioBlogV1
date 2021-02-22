@@ -13,6 +13,7 @@
     height: 300px;
     background-size: cover;
     color: white;
+    margin-top: 50px;
 }
 
 .listaheroes img {
@@ -45,4 +46,16 @@
 
 .select {
     padding-left: 80px;
+}
+
+.cambio4 {
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.figura {
+    margin-top: 290px;
+    font-size: 20px;
 }

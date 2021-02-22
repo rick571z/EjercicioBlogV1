@@ -4,31 +4,16 @@
         <div class="valor">
             <p>Post de Peliculas</p>
         </div>
-        <nav class="nav">
-            <div class="move1">
-                <button [routerLink]="['/blog']">BLOG</button>
-            </div>
-            <div class="move2">
-                <button [routerLink]="['/new']">NEW</button>
-            </div>
+
+        <div class="move1">
+            <button [routerLink]="['/blog']">BLOG</button>
+            <button [routerLink]="['/new']">NEW</button>
+        </div>
 
 
-        </nav>
 
         <router-outlet></router-outlet>
 
     </div>
 
 </div>
-
-
-<!-- 
-<div class="wrapper">
-
-    <app-header></app-header>
-
-    <router-outlet>
-    </router-outlet>
-
-    <app-footer></app-footer>
-</div> -->

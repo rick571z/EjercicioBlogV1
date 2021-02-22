@@ -13,13 +13,15 @@
 
         <div class="listapost">
             <div class="listaheroes" *ngFor="let id of listaPost" [ngStyle]="{ backgroundImage: 'url('+ id.imagen + ')'}" [routerLink]="['/blog']">
-                <h3>{{ id.categoria }}</h3>
+                <h3 class="figura">{{ id.categoria }}</h3>
+
             </div>
+
 
         </div>
 
-        <div>
-            <p><span>los mejores post</span></p>
+        <div class="cambio4">
+            <p>Los mejores Post de Peliculas</p>
         </div>
 
 

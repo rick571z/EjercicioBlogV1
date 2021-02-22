@@ -10,44 +10,44 @@ export class ServicioService {
   listaPersonas: Post[] = [
 
     {
-      titulo: 'persona',
-      texto: 'descripcion del personaje',
+      titulo: 'Total Recall',
+      texto: 'Buscando la verdad',
       autor: 'lucas',
       imagen: 'https://accioncine.es/images/stories/mjp/2012/desafio_total.jpg',
       fecha: '12-08-2017',
       categoria: 'ciencia ficcion'
     },
     {
-      titulo: 'Wonder Woman2',
-      texto: 'primera pelicula',
+      titulo: 'Avatar',
+      texto: 'Una de las mas taquilleras',
       autor: 'Pati Jenkis',
       imagen: 'https://i.pinimg.com/736x/0b/47/52/0b475243e0f2612c5ad6485dfc214b3e.jpg',
       fecha: '12-08-2017',
+      categoria: 'ciencia ficcion'
+    },
+    {
+      titulo: 'Gran Amor',
+      texto: 'comedia de amor',
+      autor: 'Pati Jenkis',
+      imagen: 'https://cartelera.elperiodico.com/estaticos//0/683/683571_p.jpg',
+      fecha: '12-08-2018',
+      categoria: 'comedia'
+    },
+    {
+      titulo: 'Jumanji',
+      texto: 'mundo fantastico',
+      autor: 'Pati Jenkis',
+      imagen: 'https://www.filmaboutit.com/data/shp/images/b1bTpxh0lRfw7kwRrWPeMOo7jbY.jpg',
+      fecha: '12-08-2016',
+      categoria: 'aventura'
+    },
+    {
+      titulo: 'Jojo Rabbit',
+      texto: 'Segunda guerra mundial',
+      autor: 'Pati Jenkis',
+      imagen: 'https://unity-img.tbxapis.com/v0/images/3a1a07364091e7ad5788133aaf260faa/content/5f2f87069e282010f8aab23e/7084d1dcaea7bf78d64a0088c5f6c8a396fa7fce/7084d1dcaea7bf78d64a0088c5f6c8a396fa7fce.png?_v=1.5.99',
+      fecha: '12-08-2019',
       categoria: 'drama'
-    },
-    {
-      titulo: 'Wonder Woman3',
-      texto: 'primera pelicula',
-      autor: 'Pati Jenkis',
-      imagen: 'https://www.elplural.com/uploads/s1/20/87/7/jupiter-ascending.jpeg',
-      fecha: '12-08-2017',
-      categoria: 'comedia'
-    },
-    {
-      titulo: 'Wonder Woman3',
-      texto: 'primera pelicula',
-      autor: 'Pati Jenkis',
-      imagen: 'https://cinecritica.com/wp-content/uploads/2013/11/Prometheus-critica.jpg',
-      fecha: '12-08-2017',
-      categoria: 'comedia'
-    },
-    {
-      titulo: 'Wonder Woman3',
-      texto: 'primera pelicula',
-      autor: 'Pati Jenkis',
-      imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxjHLPGKksRWrv3jA2_WO-mmXrSlADM07WgA&usqp=CAU',
-      fecha: '12-08-2017',
-      categoria: 'comedia'
     }
 
 

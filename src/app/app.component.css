@@ -17,25 +17,24 @@
     text-align: center;
 }
 
-
-/* .nav {
+.nav {
     width: 1040px;
-    background-color: coral;
     margin-top: 20px;
     margin-left: -330px;
-} */
+    border-radius: 5px;
+}
 
 .nav .move1 button {
     margin-left: 130px;
     margin-top: 20px;
-    border-radius: 5px;
 }
 
-.nav .move2 button {
+
+/* .nav .move2 button {
     margin-left: 700px;
     margin-top: 20px;
     border-radius: 5px;
-}
+} */
 
 
 /* .nav .blog {
